@@ -12,7 +12,7 @@ public class Colaborador extends NumRandom{
 
         //Generamos y guardamos los números
 
-        colaborador.generarNumeros();
+        colaborador.generaryGuardarNumeros();
     }
 
     public void generaryGuardarNumeros(){
