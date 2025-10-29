@@ -45,8 +45,8 @@ public class EstadosHilosDemo {
         // Monitoreo mientras los hilos están ejecutándose
         while (hilo1.isAlive() || hilo2.isAlive()) {
             System.out.println("\nEstado actual:");
-            System.out.println("hilo1 -> " + hilo1.getState());
-            System.out.println("hilo2 -> " + hilo2.getState());
+            System.out.println("hilo1: " + hilo1.getState());
+            System.out.println("hilo2: " + hilo2.getState());
             try {
                 Thread.sleep(300); // pausa para observar cambios
             } catch (InterruptedException e) {
