@@ -1,4 +1,4 @@
-package Prueba;
+package Exploracion_Interfaces_Red;
 
 import java.net.*;
 import java.util.*;
